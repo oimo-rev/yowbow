@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8C15051BD1291E003DCC51 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8C15041BD1291E003DCC51 /* WebViewController.swift */; };
+		BA8C15071BD13ECF003DCC51 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8C15061BD13ECF003DCC51 /* AddViewController.swift */; };
+		BAD247271BC7EC5500DD80B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD247261BC7EC5500DD80B8 /* AppDelegate.swift */; };
+		BAD247291BC7EC5500DD80B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD247281BC7EC5500DD80B8 /* ViewController.swift */; };
+		BAD2472C1BC7EC5500DD80B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD2472A1BC7EC5500DD80B8 /* Main.storyboard */; };
+		BAD2472E1BC7EC5500DD80B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD2472D1BC7EC5500DD80B8 /* Assets.xcassets */; };
+		BAD247311BC7EC5500DD80B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD2472F1BC7EC5500DD80B8 /* LaunchScreen.storyboard */; };
+		BAD2473C1BC7EC5500DD80B8 /* yowbow_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2473B1BC7EC5500DD80B8 /* yowbow_iosTests.swift */; };
+		BAD247471BC7EC5500DD80B8 /* yowbow_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD247461BC7EC5500DD80B8 /* yowbow_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAD247381BC7EC5500DD80B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD2471B1BC7EC5500DD80B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD247221BC7EC5500DD80B8;
+			remoteInfo = "yowbow-ios";
+		};
+		BAD247431BC7EC5500DD80B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAD2471B1BC7EC5500DD80B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAD247221BC7EC5500DD80B8;
+			remoteInfo = "yowbow-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8C15041BD1291E003DCC51 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BA8C15061BD13ECF003DCC51 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BAD247231BC7EC5500DD80B8 /* yowbow-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yowbow-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD247261BC7EC5500DD80B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAD247281BC7EC5500DD80B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAD2472B1BC7EC5500DD80B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAD2472D1BC7EC5500DD80B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAD247301BC7EC5500DD80B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAD247321BC7EC5500DD80B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD247371BC7EC5500DD80B8 /* yowbow-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yowbow-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD2473B1BC7EC5500DD80B8 /* yowbow_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yowbow_iosTests.swift; sourceTree = "<group>"; };
+		BAD2473D1BC7EC5500DD80B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD247421BC7EC5500DD80B8 /* yowbow-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yowbow-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD247461BC7EC5500DD80B8 /* yowbow_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yowbow_iosUITests.swift; sourceTree = "<group>"; };
+		BAD247481BC7EC5500DD80B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD247201BC7EC5500DD80B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD247341BC7EC5500DD80B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD2473F1BC7EC5500DD80B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAD2471A1BC7EC5500DD80B8 = {
+			isa = PBXGroup;
+			children = (
+				BAD247251BC7EC5500DD80B8 /* yowbow-ios */,
+				BAD2473A1BC7EC5500DD80B8 /* yowbow-iosTests */,
+				BAD247451BC7EC5500DD80B8 /* yowbow-iosUITests */,
+				BAD247241BC7EC5500DD80B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD247241BC7EC5500DD80B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD247231BC7EC5500DD80B8 /* yowbow-ios.app */,
+				BAD247371BC7EC5500DD80B8 /* yowbow-iosTests.xctest */,
+				BAD247421BC7EC5500DD80B8 /* yowbow-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD247251BC7EC5500DD80B8 /* yowbow-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BAD247261BC7EC5500DD80B8 /* AppDelegate.swift */,
+				BAD247281BC7EC5500DD80B8 /* ViewController.swift */,
+				BA8C15041BD1291E003DCC51 /* WebViewController.swift */,
+				BAD2472A1BC7EC5500DD80B8 /* Main.storyboard */,
+				BA8C15061BD13ECF003DCC51 /* AddViewController.swift */,
+				BAD2472D1BC7EC5500DD80B8 /* Assets.xcassets */,
+				BAD2472F1BC7EC5500DD80B8 /* LaunchScreen.storyboard */,
+				BAD247321BC7EC5500DD80B8 /* Info.plist */,
+			);
+			path = "yowbow-ios";
+			sourceTree = "<group>";
+		};
+		BAD2473A1BC7EC5500DD80B8 /* yowbow-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAD2473B1BC7EC5500DD80B8 /* yowbow_iosTests.swift */,
+				BAD2473D1BC7EC5500DD80B8 /* Info.plist */,
+			);
+			path = "yowbow-iosTests";
+			sourceTree = "<group>";
+		};
+		BAD247451BC7EC5500DD80B8 /* yowbow-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAD247461BC7EC5500DD80B8 /* yowbow_iosUITests.swift */,
+				BAD247481BC7EC5500DD80B8 /* Info.plist */,
+			);
+			path = "yowbow-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD247221BC7EC5500DD80B8 /* yowbow-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD2474B1BC7EC5500DD80B8 /* Build configuration list for PBXNativeTarget "yowbow-ios" */;
+			buildPhases = (
+				BAD2471F1BC7EC5500DD80B8 /* Sources */,
+				BAD247201BC7EC5500DD80B8 /* Frameworks */,
+				BAD247211BC7EC5500DD80B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yowbow-ios";
+			productName = "yowbow-ios";
+			productReference = BAD247231BC7EC5500DD80B8 /* yowbow-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAD247361BC7EC5500DD80B8 /* yowbow-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD2474E1BC7EC5500DD80B8 /* Build configuration list for PBXNativeTarget "yowbow-iosTests" */;
+			buildPhases = (
+				BAD247331BC7EC5500DD80B8 /* Sources */,
+				BAD247341BC7EC5500DD80B8 /* Frameworks */,
+				BAD247351BC7EC5500DD80B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD247391BC7EC5500DD80B8 /* PBXTargetDependency */,
+			);
+			name = "yowbow-iosTests";
+			productName = "yowbow-iosTests";
+			productReference = BAD247371BC7EC5500DD80B8 /* yowbow-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAD247411BC7EC5500DD80B8 /* yowbow-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD247511BC7EC5500DD80B8 /* Build configuration list for PBXNativeTarget "yowbow-iosUITests" */;
+			buildPhases = (
+				BAD2473E1BC7EC5500DD80B8 /* Sources */,
+				BAD2473F1BC7EC5500DD80B8 /* Frameworks */,
+				BAD247401BC7EC5500DD80B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD247441BC7EC5500DD80B8 /* PBXTargetDependency */,
+			);
+			name = "yowbow-iosUITests";
+			productName = "yowbow-iosUITests";
+			productReference = BAD247421BC7EC5500DD80B8 /* yowbow-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD2471B1BC7EC5500DD80B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = FBC;
+				TargetAttributes = {
+					BAD247221BC7EC5500DD80B8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C3XQCRVD7N;
+					};
+					BAD247361BC7EC5500DD80B8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C3XQCRVD7N;
+						TestTargetID = BAD247221BC7EC5500DD80B8;
+					};
+					BAD247411BC7EC5500DD80B8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C3XQCRVD7N;
+						TestTargetID = BAD247221BC7EC5500DD80B8;
+					};
+				};
+			};
+			buildConfigurationList = BAD2471E1BC7EC5500DD80B8 /* Build configuration list for PBXProject "yowbow-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAD2471A1BC7EC5500DD80B8;
+			productRefGroup = BAD247241BC7EC5500DD80B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD247221BC7EC5500DD80B8 /* yowbow-ios */,
+				BAD247361BC7EC5500DD80B8 /* yowbow-iosTests */,
+				BAD247411BC7EC5500DD80B8 /* yowbow-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD247211BC7EC5500DD80B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD247311BC7EC5500DD80B8 /* LaunchScreen.storyboard in Resources */,
+				BAD2472E1BC7EC5500DD80B8 /* Assets.xcassets in Resources */,
+				BAD2472C1BC7EC5500DD80B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD247351BC7EC5500DD80B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD247401BC7EC5500DD80B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD2471F1BC7EC5500DD80B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD247291BC7EC5500DD80B8 /* ViewController.swift in Sources */,
+				BA8C15051BD1291E003DCC51 /* WebViewController.swift in Sources */,
+				BA8C15071BD13ECF003DCC51 /* AddViewController.swift in Sources */,
+				BAD247271BC7EC5500DD80B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD247331BC7EC5500DD80B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD2473C1BC7EC5500DD80B8 /* yowbow_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD2473E1BC7EC5500DD80B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD247471BC7EC5500DD80B8 /* yowbow_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAD247391BC7EC5500DD80B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD247221BC7EC5500DD80B8 /* yowbow-ios */;
+			targetProxy = BAD247381BC7EC5500DD80B8 /* PBXContainerItemProxy */;
+		};
+		BAD247441BC7EC5500DD80B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAD247221BC7EC5500DD80B8 /* yowbow-ios */;
+			targetProxy = BAD247431BC7EC5500DD80B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAD2472A1BC7EC5500DD80B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD2472B1BC7EC5500DD80B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAD2472F1BC7EC5500DD80B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD247301BC7EC5500DD80B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAD247491BC7EC5500DD80B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAD2474A1BC7EC5500DD80B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAD2474C1BC7EC5500DD80B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "yowbow-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.fbc-web.yowbow-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAD2474D1BC7EC5500DD80B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "yowbow-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.fbc-web.yowbow-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAD2474F1BC7EC5500DD80B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "yowbow-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.fbc-web.yowbow-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yowbow-ios.app/yowbow-ios";
+			};
+			name = Debug;
+		};
+		BAD247501BC7EC5500DD80B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "yowbow-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.fbc-web.yowbow-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yowbow-ios.app/yowbow-ios";
+			};
+			name = Release;
+		};
+		BAD247521BC7EC5500DD80B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "yowbow-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.fbc-web.yowbow-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "yowbow-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BAD247531BC7EC5500DD80B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "yowbow-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.fbc-web.yowbow-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "yowbow-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD2471E1BC7EC5500DD80B8 /* Build configuration list for PBXProject "yowbow-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD247491BC7EC5500DD80B8 /* Debug */,
+				BAD2474A1BC7EC5500DD80B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD2474B1BC7EC5500DD80B8 /* Build configuration list for PBXNativeTarget "yowbow-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD2474C1BC7EC5500DD80B8 /* Debug */,
+				BAD2474D1BC7EC5500DD80B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD2474E1BC7EC5500DD80B8 /* Build configuration list for PBXNativeTarget "yowbow-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD2474F1BC7EC5500DD80B8 /* Debug */,
+				BAD247501BC7EC5500DD80B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD247511BC7EC5500DD80B8 /* Build configuration list for PBXNativeTarget "yowbow-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD247521BC7EC5500DD80B8 /* Debug */,
+				BAD247531BC7EC5500DD80B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAD2471B1BC7EC5500DD80B8 /* Project object */;
+}
